@@ -1,0 +1,26 @@
+.item{
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color:rgb(90, 87, 87);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subtitle{
+    color: cadetblue;
+    font-size: 14px;
+}
+
+.date{
+    color: rgb(192, 188, 188);
+    font-size: 11px;
+    
+}
+
+.description{
+    color: gray;
+    font-size: 15px;
+    font-family:serif;
+}

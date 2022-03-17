@@ -1,0 +1,20 @@
+.app{
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+
+.app-workAcad{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
