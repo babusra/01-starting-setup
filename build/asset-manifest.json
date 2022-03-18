@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/WebProgrammingReact-CV/static/css/main.79e13b09.chunk.css",
+    "main.js": "/WebProgrammingReact-CV/static/js/main.28268ba4.chunk.js",
+    "main.js.map": "/WebProgrammingReact-CV/static/js/main.28268ba4.chunk.js.map",
+    "runtime-main.js": "/WebProgrammingReact-CV/static/js/runtime-main.144cdf07.js",
+    "runtime-main.js.map": "/WebProgrammingReact-CV/static/js/runtime-main.144cdf07.js.map",
+    "static/js/2.f0da1c03.chunk.js": "/WebProgrammingReact-CV/static/js/2.f0da1c03.chunk.js",
+    "static/js/2.f0da1c03.chunk.js.map": "/WebProgrammingReact-CV/static/js/2.f0da1c03.chunk.js.map",
+    "index.html": "/WebProgrammingReact-CV/index.html",
+    "static/css/main.79e13b09.chunk.css.map": "/WebProgrammingReact-CV/static/css/main.79e13b09.chunk.css.map",
+    "static/js/2.f0da1c03.chunk.js.LICENSE.txt": "/WebProgrammingReact-CV/static/js/2.f0da1c03.chunk.js.LICENSE.txt",
+    "static/media/ben.jpeg": "/WebProgrammingReact-CV/static/media/ben.b04dddf0.jpeg",
+    "static/media/loginPhoto.png": "/WebProgrammingReact-CV/static/media/loginPhoto.55fcb624.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.144cdf07.js",
+    "static/js/2.f0da1c03.chunk.js",
+    "static/css/main.79e13b09.chunk.css",
+    "static/js/main.28268ba4.chunk.js"
+  ]
+}
