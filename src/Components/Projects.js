@@ -1,18 +1,14 @@
 import Card from "./Card";
 
-function Projects() {
+function Projects(props) {
   return (
     <div className="projects">
       <div>
         <h2 className="workExperience-h2">Projects</h2>
         <Card
-          subtitle={
-            "Turkcell Geleceği Yazan Kadınlar İklim Fikir Maratonu | PONF(Protect Our Nature and Future) "
-          }
-          date={""}
-          description={
-            "-It contributes to sustainable agriculture by following the use of agricultural pesticide used by agricultural producers, which are not followed in the plant protection products tracking system followed by the ministry, in the right weather conditions, on the right use dates and in the right amount."
-          }
+          subtitle={props.data[0].subtitle}
+          date={props.data[0].date}
+          description={props.data[0].description}
         />
       </div>
     </div>

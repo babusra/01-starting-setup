@@ -8,16 +8,14 @@ function AcademicHistory(props) {
       <h2 className="academicHistory-h2">Academic History</h2>
 
       <Card
-        subtitle={"Trakya University"}
-        date={"2018 - Present"}
-        description={
-          "-Computer Engineering senior year student at Trakya University"
-        }
+        subtitle={props.data[0].subtitle}
+        date={props.data[0].date}
+        description={props.data[0].description}
       />
       <Card
-        subtitle={"Etiler Anatolian Highschool"}
-        date={"2014 - 2018"}
-        description={"-Graduated"}
+        subtitle={props.data[1].subtitle}
+        date={props.data[1].date}
+        description={props.data[1].description}
       />
     </div>
   );

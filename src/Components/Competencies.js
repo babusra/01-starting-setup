@@ -1,16 +1,14 @@
 import Card from "./Card";
 
-function Competencies() {
+function Competencies(props) {
   return (
     <div className="tools">
       <div>
         <h2 className="workExperience-h2">Competencies</h2>
         <Card
-          subtitle={
-            ""
-          }
-          date={""}
-          description={"-Project Planning,Team Work, Software Algorithm, User Interface Design, Frontend Development, Social Media"}
+          subtitle={props.data[0].subtitle}
+          date={props.data[0].date}
+          description={props.data[0].description}
         />
         
       </div>

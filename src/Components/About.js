@@ -1,16 +1,14 @@
 import Card from "./Card";
 
-function About() {
+function About(props) {
   return (
     <div className="about">
       <div>
         <h2 className="workExperience-h2">About</h2>
         <Card
-          subtitle={""}
-          date={""}
-          description={
-            "Self-motivated, hard-working Computer Engineering Student with broad foundation in engineering principles. Provides engineering support to projects. Successful completion of advanced academic projects demonstrating engineering support capability."
-          }
+          subtitle={props.data[0].subtitle}
+          date={props.data[0].date}
+          description={props.data[0].description}
         />
       </div>
     </div>

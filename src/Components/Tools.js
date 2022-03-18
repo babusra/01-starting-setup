@@ -1,14 +1,14 @@
 import Card from "./Card";
 
-function Tools() {
+function Tools(props) {
   return (
     <div className="tools">
       <div>
         <h2 className="workExperience-h2">Tools and Technology</h2>
         <Card
-          subtitle={"Development Technology"}
-          date={""}
-          description={"-React Native, Java Spring, HTML, CSS, JavaScript"}
+          subtitle={props.data[0].subtitle}
+          date={props.data[0].date}
+          description={props.data[0].description}
         />
       </div>
     </div>

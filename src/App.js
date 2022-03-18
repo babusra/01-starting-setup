@@ -11,8 +11,11 @@ import Tools from "./Components/Tools";
 import About from "./Components/About";
 import Competencies from "./Components/Competencies";
 import Lang from "./Components/Lang";
+import { Data } from "./Data/Data";
 
 function App() {
+
+
   return (
     <div className="app">
       <div className="photo">
@@ -21,32 +24,32 @@ function App() {
       <Name name={"Büşra ARIGÜN"} />
       <div className="app-workAcad">
         <div className="column">
-          <About />
+          <About data={Data.AboutData}/>
         </div>
 
         <div className="column">
-          <Competencies />
+          <Competencies data={Data.CompetenciesData} />
         </div>
       </div>
       <div className="app-workAcad">
         <div className="column">
-          <WorkExperience />
+          <WorkExperience data={Data.WorkData}/>
         </div>
 
         <div className="column">
-          <AcademicHistory />
+          <AcademicHistory data={Data.AcademicData} />
         </div>
       </div>
       <div className="app-workAcad">
         <div className="column">
-          <Tools />
+          <Tools data={Data.ToolsData} />
         </div>
         <div>
-          <Lang/>
+          <Lang data={Data.LangData}/>
         </div>
       </div>
       <div className="column">
-          <Projects />
+          <Projects data={Data.ProjectsData}/>
         </div>
     </div>
   );

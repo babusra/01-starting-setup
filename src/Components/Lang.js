@@ -1,16 +1,14 @@
 import Card from "./Card";
 
-function Lang() {
+function Lang(props) {
   return (
     <div className="lang">
       <div>
         <h2 className="workExperience-h2">Languages</h2>
         <Card
-          subtitle={
-            ""
-          }
-          date={""}
-          description={"-English C1 , Turkish (Native)"}
+          subtitle={props.data[0].subtitle}
+          date={props.data[0].date}
+          description={props.data[0].description}
         />
         
       </div>
